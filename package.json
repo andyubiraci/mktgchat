@@ -3,10 +3,7 @@
   , "version": "0.0.1"
   , "description": "Real-time apps made cross-browser & easy with a WebSocket-like API"
   
-  , "repository":{
-        "type": "git"
-      , "url": "https://github.com/andyubiraci/mktgchat.git"
-    }
+  
   , "dependencies": {
    "express": "2.5.5"
       , "jade": "0.16.4"
