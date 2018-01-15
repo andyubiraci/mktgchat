@@ -2,6 +2,10 @@
     "name": "chat.io"
   , "description": "example chat application with socket.io"
   , "version": "0.0.1"
+  , "repository": {
+    "type": "git",
+    "url": "https://github.com/andyubiraci/mktgchat"
+  },
   , "dependencies": {
         "express": "2.5.5"
       , "jade": "0.16.4"
