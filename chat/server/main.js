@@ -8,6 +8,10 @@ app.get('/', function(req, res){
     res.status(200).send("MKTG Chat...!");
 })
 
-server.listen(port, function(){
+io.on('connection', function(socket) {
+    console.log('Alguien en Sockets');
+})
+
+server.listen(8080, function(){
     console.log("corriendo!");
 })
